@@ -46,7 +46,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: rgba(19, 57, 170, 0.7);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -89,8 +89,8 @@ nav img {
 }
 
 .github-btn:hover {
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid rgba(19, 57, 170, 0.7);
+    background: rgba(19, 57, 170, 0.7);
     transition: 1s;
 }
 
@@ -225,7 +225,7 @@ h3 {
 }
 
 .layer:hover {
-    background: rgba(226, 0, 0, .7);
+    background: rgba(19, 57, 170, 0.7);
 }
 
 .layer h3 {
@@ -259,11 +259,11 @@ h3 {
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: center;
 }
 
 .skills-col img {
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
 }
 
@@ -274,7 +274,7 @@ h3 {
 .skills-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
 
 
