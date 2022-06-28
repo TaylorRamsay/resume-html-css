@@ -5,9 +5,9 @@
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url();
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/bg.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -46,7 +46,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: rgba(19, 57, 170, 0.7);
+    background: rgba(0, 248, 33, 0.7);
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -60,7 +60,7 @@ nav img {
     width: 90%;
     color: #fff;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%);
     text-align: center;
@@ -89,8 +89,8 @@ nav img {
 }
 
 .github-btn:hover {
-    border: 1px solid rgba(19, 57, 170, 0.7);
-    background: rgba(19, 57, 170, 0.7);
+    border: 1px solid rgba(0, 248, 33, 0.7);
+    background: rgba(0, 248, 33, 0.7);
     transition: 1s;
 }
 
@@ -139,13 +139,13 @@ nav .fa-solid {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 70px;
     font-weight: 600;
 }
 
 .work-experience p {
     color: rgb(0, 0, 0);
-    font-size: 14px;
+    font-size: px;
     font-weight: 300;
     line-height: 22px;
     padding: 0px;
@@ -167,12 +167,27 @@ h1 {
     transition: 0.5s;
 }
 
+.work-experience h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.work-experience h4 {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0; 
+}
 .work-experience-col ul {
     padding-left: 50px;
 }
 
 .work-experience-col ul li {
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
 }
 
@@ -211,13 +226,19 @@ h3 {
 }
 
 .education-col img {
-    width: 100%;
+    width: 80%;
     display: block;
+}
+
+.education-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
 }
 
 .layer {
     height: 100%;
-    width: 100%;
+    width: 80%;
     position: absolute;
     top: 0;
     left: 0;
@@ -275,6 +296,14 @@ h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+.skills-col ul {
+    padding-left: 80px;
+}
+
+.skills-col ul li {
+    text-align:justify;
 }
 
 
